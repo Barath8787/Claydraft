@@ -1,0 +1,13 @@
+// npm init  -y,
+
+// npm i express,
+
+// npm i nodemone -D   D for develper deptency
+
+//  npm i  dotenv
+
+// npm i mongoose
+
+MVC -- model view controller  patten
+model- db
+controll --process the user request and insert the data
