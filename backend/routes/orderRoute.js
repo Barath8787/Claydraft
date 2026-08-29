@@ -6,6 +6,7 @@ import {
   getAllOrders,
   getOrderDetails,
   DeleteOrderByAdmin,
+  updateByAdmin,
 } from "../controller/orderController.js";
 import { verify } from "crypto";
 
@@ -22,6 +23,6 @@ router
 
 router
   .route("/admin/order/:id")
-  .delete(verifyToken, roleBasedAccess("admin"), DeleteOrderByAdmin);
-
+  .delete(verifyToken, roleBasedAccess("admin"), DeleteOrderByAdmin)
+  .put(verifyToken, roleBasedAccess("admin"), updateByAdmin);
 export default router;

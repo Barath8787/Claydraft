@@ -1,4 +1,4 @@
-import { Product } from "../models/productModel.js";
+import Product from "../models/productModel.js";
 import HandleErorr from "../helper/errorhandler.js";
 import APIHelper from "../helper/ApiHelper.js";
 
