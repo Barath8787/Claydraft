@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import ImageSlider from "../Components/imageSlider";
+import Footer from "../Components/Footer";
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
       <Navbar />
       <ImageSlider />
       Home
+      <Footer />
     </div>
   );
 }
